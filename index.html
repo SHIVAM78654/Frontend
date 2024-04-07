@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="images/profile.jpg" id="profilepic">
+        <!-- <p id="typ-rite"></p> -->
+
+        <ul>
+            <li id="about">About</li>
+            <li id="Experience">Experience</li>
+            <li id="projects">Projects</li>
+            <li id="skills">Skills</li>
+            <li id="Education">Education</li>
+            <li id="Resume">Resume</li>
+        </ul>
+    </div>
+    <div class="mainsection">
+        <div class="introarea">
+            <p id="firstline">Hi, I'm <span> Shivam Sengar </span></p>
+            <p id="type-rite"></p>
+            <p id="ac">Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving<br> a complex and challenging real-world problems.</p>
+            <button><i class="fa-brands fa-linkedin fa-2xl"></i></button>
+            <button id="whatsap"><i class="fa-brands fa-whatsapp fa-2xl"></i></button>
+        </div>
+        <div class="aboutsection" onclick="scrollabout()">
+            <h1>ABOUT</h1>
+            <p id="aboutfirstline">I am a Computer Science Student at Raja Balwant Singh Engineering Technical Campus. I enjoy problem
+                <p id="aboutsecondline">solving and coding. Always strive to bring 100% to the work I do. I have worked on technologies like Python,Django, </p>
+
+                <p id="aboutthirdline"> Flask, HTML5, CSS, Java, C++ , MySQL during my bachelor's.</p>
+                <p id="aboutfourline"> I am passionate about developing complex applications that solve real-world problems impacting millions of users.</p>
+
+                <p id="tech"><b>Languages:</b> Python, Java, JavaScript, C, HTML/CSS</p>
+                <p id="tech-1"> <b>Databases:</b> MySQL, MongoDB </p>
+                <p id="tech-2"><b>Libraries:</b> NumPy, Pandas</p>
+                <p id="tech-3"><b>Frameworks:</b> Django, Bootstrap, Apache Beam</p>
+                <p id="tech-4"><b>Tools & Technologies:</b> Git</p>
+        </div>
+        <div class="experience">
+            <h1>EXPERIENCE</h1>
+            <!-- <img src="images/amazonss.png" id="amazon"> -->
+            <div class="aboutamazon">
+                <p id="heading">Java Development Intern</p>
+                <span>Unique Computer Solutions March 2023 - June 2023 </span>
+                <ul>
+
+                    <li>Contributed to the development of an E-Commerce Website using JSP & Servlet, demonstrating skills in web development and Java EE technologies.<br>
+                        <li>Independently designed and implemented an Amazon clone using HTML and CSS, showcasing front-end development skills and attention to detail.</li>
+                    </li>
+                    <li>
+                        Created a sports website using HTML and CSS, highlighting proficiency in web development technologies and ability to deliver projects in a timely manner.
+                    </li>
+                    <li>Implement new features, and ensure project milestones were met.</li>
+
+
+                </ul>
+            </div>
+        </div>
+        <div class="projects">
+            <h1>PROJECTS</h1>
+            <div class="projectarea">
+
+                <div class="dssport">
+                    <img src="images/project-ml-1.jpg">
+                    <p id="dssports">D Sports</p>
+                    <p id="chr-content">D Sports using html And Css</p>
+                </div>
+
+                <div class="Amaz">
+                    <img src="images/project-ml-2.jpg">
+                    <p id="div">Amazon website clone</p>
+                    <p id="div-content">Amazon Clones Using Html , Css and JavaScript</p>
+                </div>
+
+                <div class="e-commerce">
+                    <img src="images/project-ml-3.jpg">
+                    <p id="ec">E- Commerce Website using<br> JSP & SERVLET</p>
+                    <p id="ec-content">E-Commerce Website develop using Advanced JAVA </p>
+                </div>
+
+                <div class="banking">
+                    <img src="images/project-ml-1.jpg">
+                    <p id="ban">GUI Based Banking Application</p>
+                    <p id="ban-content">Dynamic GUI based banking application build develop using JAVA</p>
+                </div>
+            </div>
+            <div class="skills" onclick="scrollWin()">
+                <h1>SKILLS</h1>
+                <div class="languages">
+                    <p>Languages and Databases</p>
+                    <hr>
+                    <img src="images/python-logo-1-300x300.jpg">
+                    <img src="images/java 1.webp">
+                    <img src="images/javascript.png">
+                    <img src="images/html5-300x300.jpg">
+                    <img src="images/css3-300x300.jpg">
+                    <img src="images/mysql-logo-1-300x300.jpg">
+                    <br>
+                    <span>Python</span>
+                    <span id="j1">Java</span>
+                    <span id="j2">JavaScript</span>
+                    <span id="j3">Html</span>
+                    <span id="j4">Css</span>
+                    <span id="j5">MySQL</span>
+                </div>
+                <div class="libraries">
+                    <p id="lib">Libraries</p>
+                    <hr>
+                    <img src="images/numpy-logo-1-500x500.jpg">
+                    <img src="images/pandas-logo-2-500x500.jpg">
+                    <img src="images/opencv-logo-1-500x500.jpg">
+                    <img src="images/sk-learn-logo-1-500x500.jpg">
+                    <img src="images/matplotlib-logo-1-500x500.jpg">
+                    <br>
+                    <span>NumPy</span>
+                    <span id="l1">Pandas</span>
+                    <span id="l2">OpenCV</span>
+                    <span id="l3"> scikit-learn</span>
+                    <span id="l4">matplotlib</span>
+                </div>
+                <div class="framework">
+                    <p>Frameworks</p>
+
+                    <hr>
+                    <img src="images/django-logo.webp">
+                    <img src="images/flask-logo.png">
+                    <img src="images/bootstrap.png">
+                    <img src="images/keras-logo.png">
+                    <br>
+                    <span>Django</span>
+                    <span id="f1">Flask</span>
+                    <span id="f2">Bootstrap</span>
+                    <span id="f3">Keras</span>
+                </div>
+                <div class="other">
+                    <p>Others</p>
+                    <hr>
+                    <img src="images/git.png">
+                    <br><br>
+                    <span>Git</span>
+                </div>
+            </div>
+
+            <h1>EDUCATION</h1>
+            <div class="college">
+                <p>Raja Balwant Singh Engineering Technical Campus</p>
+                <p id="clg1">Bichpuri ,Agra ,UP</p>
+                <p id="clg2"><b>Degree:</b> Bachelor of Technology in Computer Science and Engineering</p>
+                <p id="clg3"><b>CGPA:</b>7.05</p>
+                <p id="clg4"><b>Relevant Courseworks:</b></p>
+                <ul id="rel-course">
+                    <li>Data Structures and Algorithms</li>
+                    <li>Database Management Systems</li>
+                    <li>Operating Systems</li>
+                    <li>Machine Learning</li>
+                    <li>Image Processing</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h1>CONTACT</h1>
+
+                <P><i class="fa-solid fa-square-phone fa-sm"></i>8755122644</P>
+                <p id="c1"><i class="fa-solid fa-at fa-sm"></i>sengarshivam050@gmail.com</p>
+            </div>
+
+        </div>
+
+
+    </div>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
