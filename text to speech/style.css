@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppin', sans-serif;
+}
+
+.herosection {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(35deg, #010458, #490d61);
+}
+
+.herosection h1 {
+    color: #fff;
+}
+
+.herosection span {
+    color: red;
+}
+
+.herosection textarea {
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.herosection ::placeholder {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #010458;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-top: 2PX;
+    outline: 0;
+}
+
+.row {
+    margin-left: 120px;
+    width: 600px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.row button {
+    margin-top: 10px;
+    color: #fff;
+    /* margin-left: 50px; */
+    width: 85px;
+    height: 45px;
+    background: orangered;
+    border-radius: 20px;
+}
+
+.row button img {
+    width: 16px;
+    height: 15px;
+    padding-right: 2px;
+}
+
+select {
+    margin-top: 20px;
+    flex: 1;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
